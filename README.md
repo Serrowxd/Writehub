@@ -2,6 +2,14 @@
 
 Github, but for writers!
 
+My goal is to make a version control system for Writers of all types. Losing your work after hundreds of hours of commitment is painful, as a writer I've experienced this more than once. I want to make version control of writing more popular, and allow for the storage and retrieval of content in a controlled environment - losing all your work because of a failed harddrive will be a thing of the past.
+
+## Potential Stack
+
+**Front-End: React/Redux** -- I feel React would be a fantastic addition here because it is going to be used as a single-page application. Information that is displayed will be shown as relevant to the user logged in, so having a constant state and the ability to reuse purpose-built components would allow for clean and efficient access.
+
+**Back-End: NodeJS/Firebase && Django** -- I'm slightly torn here. I would like to use NodeJS because it interacts well with Firebase by default - so I would be able to use Node as my middleman before passing the information directly to Firebase to store. With Django I have the ability to utilize Python and an SQL structure - some of the Django middleware would allow me to quickly and efficiently read and make a direct copy of the submitted file to our local database for future edits via the website, as well as a quick and efficient way of managing users and their files. This reason alone isn't enough to make me want to switch, so for right now it's going to be deployed via Node & Firebase, but a future version will likely include Django.
+
 ## Notes
 
 `less-watch-compiler styles styles`
